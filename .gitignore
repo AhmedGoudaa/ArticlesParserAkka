@@ -2,3 +2,5 @@
 .idea
 target
 src/test/scala/
+project
+src/main/scala/
