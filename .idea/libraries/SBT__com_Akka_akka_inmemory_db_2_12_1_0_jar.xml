@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="SBT: com.Akka:akka-inmemory-db_2.12:1.0:jar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.ivy2/local/com.Akka/akka-inmemory-db_2.12/1.0/jars/akka-inmemory-db_2.12.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.ivy2/local/com.Akka/akka-inmemory-db_2.12/1.0/srcs/akka-inmemory-db_2.12-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
