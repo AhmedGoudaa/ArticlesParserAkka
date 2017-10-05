@@ -1,10 +1,10 @@
 package messages;
 
-public class ArticalBody {
+public class ArticleBody {
 
     public final String url ,body ;
 
-    public ArticalBody(String url, String body) {
+    public ArticleBody(String url, String body) {
         this.url = url;
         this.body = body;
     }

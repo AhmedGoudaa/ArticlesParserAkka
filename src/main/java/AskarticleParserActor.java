@@ -4,7 +4,7 @@ import akka.actor.ActorRef;
 import akka.actor.ActorSelection;
 import akka.actor.Status;
 import akka.util.Timeout;
-import messages.ArticalBody;
+import messages.ArticleBody;
 import messages.HttpResponse;
 import messages.ParseArticle;
 import messages.ParseHtmlArticle;
@@ -48,8 +48,8 @@ public class AskarticleParserActor extends AbstractActor {
 
                 if (x != null){
 
-                    if (x instanceof ArticalBody ){
-                        String body =  ((ArticalBody)x).body;
+                    if (x instanceof ArticleBody){
+                        String body =  ((ArticleBody)x).body;
 
                         cacheActor.tell(body , self());
                         sender.tell(body , self());

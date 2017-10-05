@@ -1,5 +1,5 @@
 import akka.actor.AbstractActor;
- import messages.ArticalBody;
+ import messages.ArticleBody;
 import messages.ParseHtmlArticle;
 
 public class ParsingActor extends AbstractActor {
@@ -7,7 +7,7 @@ public class ParsingActor extends AbstractActor {
     public Receive createReceive() {
         return receiveBuilder().match(ParseHtmlArticle.class , htmlArticle -> {
 //        String body = ArticleExtractor.getInstance().getText(htmlArticle.htmlString);
-        sender().tell(new ArticalBody(htmlArticle.uri , "fuck body") , self());
+        sender().tell(new ArticleBody(htmlArticle.uri , "fuck body") , self());
 
 
         }).build();
